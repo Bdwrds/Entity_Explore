@@ -36,5 +36,5 @@ Allow for updating/retraining model with new entities & labels.
 * Video on Spacy NER: SPACY'S ENTITY RECOGNITION MODEL: incremental parsing with Bloom embeddings & residual CNNs. Source: https://www.youtube.com/watch?v=sqDHBH9IjRU
 * Original training data for Spacy: https://catalog.ldc.upenn.edu/LDC2013T19
 * Textblob for Sentiment: https://textblob.readthedocs.io/en/dev/
-
+* Spacy model of choice: https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-2.0.0
 
