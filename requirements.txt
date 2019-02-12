@@ -1,4 +1,6 @@
+pandas
 pillow
 requests
 spacy
 nltk
+textblob

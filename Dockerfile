@@ -3,6 +3,8 @@ FROM python:3.6
 #set wkdir
 WORKDIR /app
 
+RUN pip install --upgrade pip
+
 COPY requirements.txt /app
 RUN pip install  -r ./requirements.txt
 
@@ -13,5 +15,6 @@ RUN python -m nltk.downloader stopwords
 RUN python -m nltk.downloader wordnet
 RUN python -m nltk.downloader punkt
 
-CMD ["python", "entity_sentiment.py"]
+
+CMD ["python", "entity_sentiment.py", "text_practice.txt"]
 
