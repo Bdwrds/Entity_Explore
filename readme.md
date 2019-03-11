@@ -2,14 +2,14 @@
 # Spacy & NLTK. 
 
 A script to provide summary stats associated with a text file of your choosing!
-Entity label and types will be written to csv with frequency and sentiment scores. Woah.
+Entity label and types will be written to csv with frequency and sentiment scores.
 
 ### Installing
 
 Install everything within the requirements.txt
 
 ```
-pip intall -r ./requirements.txt
+pip install -r ./requirements.txt
 ```
 
 
